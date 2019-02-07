@@ -7,6 +7,7 @@
 .items-list {
   margin-top: 10px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   text-align: center;
 }
@@ -15,8 +16,7 @@
   position: relative;
   font-family: sans-serif;
   padding: 10px;
-  min-width: 280px;
-  max-width: 280px;
+  width: 24%;
   margin-left: 10px;
   margin-bottom: 15px;
   display: inline-block;
@@ -69,6 +69,10 @@
   text-align: left;
 }
 
+.item__info_description {
+  height: 80px;
+}
+
 .item__info_price {
   font-size: 30px;
   font-weight: 600;
@@ -114,4 +118,34 @@ button {
 
 .lefter {
   text-align: left;
+}
+
+@media(max-width:1366px) {
+  .item {
+    min-width: 32%;
+  }
+}
+
+@media(max-width:1024px) {
+  .item {
+    min-width: 48%;
+  }
+}
+
+@media(max-width:768px) {
+  .item {
+    min-width: 100%;
+  }
+}
+
+@media(max-width:600px) {
+  .item {
+    min-width: 100%;
+  }
+}
+
+@media(max-width:280px) {
+  .item {
+    min-width: 280px;
+  }
 }
