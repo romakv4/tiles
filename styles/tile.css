@@ -28,9 +28,12 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
-.item__to-compare {
+.item__fast-actions {
   position: absolute;
   right: 10px;
+}
+
+.item__fast-actions_to-compare {
   border-radius: 5px;
   width: 50px;
   height: 50px;
@@ -38,14 +41,12 @@
   font-size: 35px;
 }
 
-.item__to-compare:hover {
+.item__fast-actions_to-compare:hover {
   background-color: #ff8119;
   color: white;
 }
 
-.item__to-favorites {
-  position: absolute;
-  top: 80px;
+.item__fast-actions_to-favorites {
   right: 10px;
   border-radius: 5px;
   width: 50px;
@@ -54,7 +55,7 @@
   font-size: 35px;
 }
 
-.item__to-favorites:hover {
+.item__fast-actions_to-favorites:hover {
   background-color: #ff8119;
   color: white;
 }
